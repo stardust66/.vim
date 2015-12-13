@@ -64,9 +64,6 @@
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/colorsbox"]
-	path = bundle/colorsbox
-	url = https://github.com/mkarmona/colorsbox.git
 [submodule "bundle/golden_view"]
 	path = bundle/golden_view
 	url = https://github.com/zhaocai/GoldenView.Vim.git
