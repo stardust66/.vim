@@ -1,1 +1,1 @@
-nnoremap <leader>p :exec '!python3 %'<CR>
+nnoremap <buffer> <leader>e :!python3 & | less<CR>
