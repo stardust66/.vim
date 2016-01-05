@@ -1,1 +1,1 @@
-nnoremap <buffer> <leader>e :!python3 & | less<CR>
+nnoremap <buffer> <leader>e :!python3 %<CR>

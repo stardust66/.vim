@@ -1,1 +1,1 @@
-nnoremap <buffer> <leader>e :exec "!clang++ % && ./a.out | less"`
+nnoremap <buffer> <leader>e :!clang++ % && ./a.out<CR>
