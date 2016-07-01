@@ -73,3 +73,6 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = git@github.com:Valloric/YouCompleteMe.git
+[submodule "/Users/s180893/.vim/bundle/auto-pairs"]
+	path = /Users/s180893/.vim/bundle/auto-pairs
+	url = git://github.com/jiangmiao/auto-pairs.git
