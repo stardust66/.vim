@@ -79,3 +79,6 @@
 [submodule "bundle/commentary"]
 	path = bundle/commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "bundle/system-copy"]
+	path = bundle/system-copy
+	url = https://github.com/christoomey/vim-system-copy.git
