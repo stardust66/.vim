@@ -76,3 +76,6 @@
 [submodule "bundle/ctrlpvim"]
 	path = bundle/ctrlpvim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "bundle/commentary"]
+	path = bundle/commentary
+	url = https://github.com/tpope/vim-commentary.git
