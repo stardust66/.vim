@@ -82,3 +82,6 @@
 [submodule "bundle/system-copy"]
 	path = bundle/system-copy
 	url = https://github.com/christoomey/vim-system-copy.git
+[submodule "bundle/gitgutter"]
+	path = bundle/gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
