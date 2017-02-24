@@ -93,15 +93,11 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Map keys to :NERDTreeToggle
 noremap tt :NERDTreeToggle<CR>
 
-" statusline
-" Default statusline beginning
-set statusline=%f\ %h%w%m%r\ 
+" Make statusline appear all the time
+set laststatus=2
 
-" Git
-set statusline+=%{fugitive#statusline()}
-
-" End of default statusline
-set statusline+=%=%(%l,%c%V\ %=\ %P%)
+" Airline
+let g:airline_theme = "spring_night"
 
 " Disable syntastic by default
 let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }

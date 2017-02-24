@@ -88,3 +88,6 @@
 [submodule "bundle/spring-night"]
 	path = bundle/spring-night
 	url = https://github.com/rhysd/vim-color-spring-night.git
+[submodule "bundle/airline"]
+	path = bundle/airline
+	url = https://github.com/vim-airline/vim-airline.git
