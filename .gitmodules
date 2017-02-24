@@ -85,3 +85,6 @@
 [submodule "bundle/gitgutter"]
 	path = bundle/gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/spring-night"]
+	path = bundle/spring-night
+	url = https://github.com/rhysd/vim-color-spring-night.git
