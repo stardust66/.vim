@@ -101,3 +101,11 @@ let g:airline_theme = "spring_night"
 
 " Disable syntastic by default
 let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }
+
+" Toggle show invisibles
+nnoremap <leader>i :set list!<CR>
+
+" Reset
+set listchars=""
+set listchars=tab:→\ 
+set listchars+=trail:·
