@@ -9,3 +9,6 @@ setlocal smarttab
 
 " Wrap to 79 characters
 setlocal colorcolumn=79
+
+" Enable braceless
+BracelessEnable +indent

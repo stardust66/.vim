@@ -94,3 +94,6 @@
 [submodule "bundle/goyo"]
 	path = bundle/goyo
 	url = https://github.com/junegunn/goyo.vim.git
+[submodule "bundle/braceless"]
+	path = bundle/braceless
+	url = https://github.com/tweekmonster/braceless.vim.git
