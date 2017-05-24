@@ -36,6 +36,7 @@ let mapleader = ","
 set incsearch
 set hlsearch
 set showmatch
+set ignorecase
 nnoremap <leader><space> :noh<cr>
 
 " Folding Settings
