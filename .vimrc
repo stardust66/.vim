@@ -5,6 +5,9 @@ set relativenumber
 filetype plugin on
 filetype indent on
 
+" Disable smart indent
+set nosmartindent
+
 " Make vim create hidden buffers by default
 set hidden
 
