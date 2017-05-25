@@ -9,7 +9,6 @@ run ```git submodule update --init --recursive```.
 - airline
 - auto-pairs
 - braceless
-- commandt
 - commentary
 - ctrlpvim
 - fugitive
