@@ -113,3 +113,6 @@ nnoremap <leader>i :set list!<CR>
 set listchars=""
 set listchars=tab:→\ 
 set listchars+=trail:·
+
+" Disable Preview on Completion
+set completeopt-=preview
