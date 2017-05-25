@@ -26,3 +26,4 @@ run ```git submodule update --init --recursive```.
 - system-copy
 - tasklist
 - vim-colors-solarized
+- YouCompleteMe
