@@ -8,6 +8,11 @@ filetype indent on
 " Disable smart indent
 set nosmartindent
 
+" Default 4 spaces indent
+set tabstop=4
+set expandtab
+set shiftwidth=4
+
 " Make vim create hidden buffers by default
 set hidden
 
