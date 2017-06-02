@@ -116,3 +116,6 @@ set listchars+=trail:·
 
 " Disable Preview on Completion
 set completeopt-=preview
+
+" Shortcuts for YouCompleteMe
+nnoremap gl :YcmCompleter GoToDeclaration<CR>
