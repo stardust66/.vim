@@ -9,7 +9,7 @@ filetype indent on
 set nosmartindent
 
 " Default 4 spaces indent
-set tabstop=4
+set softtabstop=4
 set expandtab
 set shiftwidth=4
 
