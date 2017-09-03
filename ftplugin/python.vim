@@ -12,4 +12,4 @@ setlocal smarttab
 setlocal colorcolumn=79
 
 " Enable braceless
-BracelessEnable +indent
+BracelessEnable +fold
