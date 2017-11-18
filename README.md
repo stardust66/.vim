@@ -27,3 +27,4 @@ run ```git submodule update --init --recursive```.
 - tasklist
 - vim-colors-solarized
 - YouCompleteMe
+- Haskell-vim
