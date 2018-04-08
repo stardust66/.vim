@@ -5,7 +5,7 @@ setlocal tabstop=4
 setlocal shiftwidth=4
 setlocal expandtab
 setlocal autoindent
-setlocal nosmartindent
+setlocal smartindent
 setlocal smarttab
 
 " Wrap to 79 characters
