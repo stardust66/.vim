@@ -8,10 +8,10 @@ filetype indent on
 " Disable smart indent
 set nosmartindent
 
-" Default 4 spaces indent
-set softtabstop=4
+" Default 2 spaces indent
+set softtabstop=2
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 
 " Make vim create hidden buffers by default
 set hidden
@@ -93,12 +93,6 @@ nnoremap <CR> o<Esc>
 " CtrlP
 noremap <leader>p :CtrlP<CR>
 
-" Open NerdTree automatically when vim starts if
-" no files were specified (from NerdTree's github
-" page)
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
 " Map keys to :NERDTreeToggle
 noremap tt :NERDTreeToggle<CR>
 
@@ -108,9 +102,6 @@ set laststatus=2
 " Airline
 let g:airline_theme = "spring_night"
 
-" Disable syntastic by default
-let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }
-
 " Toggle show invisibles
 nnoremap <leader>i :set list!<CR>
 
@@ -118,9 +109,3 @@ nnoremap <leader>i :set list!<CR>
 set listchars=""
 set listchars=tab:→\ 
 set listchars+=trail:·
-
-" Disable Preview on Completion
-set completeopt-=preview
-
-" Shortcuts for YouCompleteMe
-nnoremap gl :YcmCompleter GoToDeclaration<CR>
