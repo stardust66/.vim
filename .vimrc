@@ -105,7 +105,9 @@ let g:airline_theme = "spring_night"
 " Toggle show invisibles
 nnoremap <leader>i :set list!<CR>
 
-" Reset
+" Show trailing spaces and tabs
 set listchars=""
 set listchars=tab:→\ 
 set listchars+=trail:·
+
+set list
