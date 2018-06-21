@@ -118,3 +118,6 @@
 [submodule "/Users/s180893/.vim/bundle/vim-jsx"]
 	path = /Users/s180893/.vim/bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
+[submodule "bundle/emmet-vim"]
+	path = bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git

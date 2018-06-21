@@ -30,3 +30,4 @@ run ```git submodule update --init --recursive```.
 - Haskell-vim
 - vim-javascript
 - vim-jsx
+- emmet-vim

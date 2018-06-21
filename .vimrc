@@ -114,3 +114,7 @@ set list
 
 " Remove trailing whitespace on save
 autocmd FileType c,cpp,java,php,python,javascript autocmd BufWritePre <buffer> %s/\s\+$//e
+
+" Enable Emmet for HTML, CSS, and javascript
+let g:user_emmet_install_global = 0
+autocmd FileType html,css,javascript EmmetInstall
