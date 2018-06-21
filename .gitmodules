@@ -112,3 +112,9 @@
 [submodule "bundle/auto-pairs"]
 	path = bundle/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "/Users/s180893/.vim/bundle/vim-javascript"]
+	path = /Users/s180893/.vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "/Users/s180893/.vim/bundle/vim-jsx"]
+	path = /Users/s180893/.vim/bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git

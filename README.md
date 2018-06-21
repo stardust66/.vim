@@ -28,3 +28,5 @@ run ```git submodule update --init --recursive```.
 - vim-colors-solarized
 - YouCompleteMe
 - Haskell-vim
+- vim-javascript
+- vim-jsx
