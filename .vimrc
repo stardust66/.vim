@@ -84,7 +84,8 @@ nnoremap <C-L> Split
 set guifont=Monaco:h13
 
 " Colorscheme
-colorscheme spring-night
+set background=dark
+colorscheme material-theme
 
 " Add new line without entering insert mode
 nnoremap <S-Enter> O<Esc>

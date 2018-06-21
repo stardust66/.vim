@@ -121,3 +121,6 @@
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "bundle/vim-material"]
+	path = bundle/vim-material
+	url = https://github.com/jdkanani/vim-material-theme
