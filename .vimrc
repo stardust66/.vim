@@ -54,7 +54,6 @@ set lbr
 set tw=500
 
 set ai "Auto indent
-set si "Smart indent
 set wrap "Wrap lines
 
 " Backspace behaves normally
@@ -119,3 +118,6 @@ autocmd FileType c,cpp,java,php,python,javascript autocmd BufWritePre <buffer> %
 " Enable Emmet for HTML, CSS, and javascript
 let g:user_emmet_install_global = 0
 autocmd FileType html,css,javascript EmmetInstall
+
+" Enable flow syntax highlighting
+let g:javascript_plugin_flow = 1
