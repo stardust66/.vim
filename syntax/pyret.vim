@@ -26,7 +26,7 @@ syn match delimeter '}'
 syn match delimeter ':'
 syn match delimeter '::'
 
-syn keyword basic var fun end with: sharing: data include import provide as try: except when
+syn keyword basic var fun method end with: sharing: data include import provide as try: except when
 syn keyword basic for from check: where: doc: and or not else: if else cases
 syn keyword basic is is== is=~ is<=> is-not is-not== is-not=~ is-not<=> raises
 syn keyword basic deriving ref graph: m-graph: block: satisfies violates shadow lam type type-let provide-types newtype
