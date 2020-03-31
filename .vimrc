@@ -112,6 +112,10 @@ set listchars+=trail:·
 
 set list
 
+function StripWhiteSpace()
+  %s/\s\+$//e
+endfunction
+
 " Remove trailing whitespace on save
 autocmd FileType c,cpp,java,php,python,javascript autocmd BufWritePre <buffer> %s/\s\+$//e
 
