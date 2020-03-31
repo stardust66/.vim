@@ -40,9 +40,6 @@
 [submodule "bundle/makegreen"]
 	path = bundle/makegreen
 	url = https://github.com/reinh/vim-makegreen
-[submodule "bundle/tasklist"]
-	path = bundle/tasklist
-	url = https://github.com/vim-scripts/TaskList.vim.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
@@ -58,9 +55,6 @@
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/golden_view"]
-	path = bundle/golden_view
-	url = https://github.com/zhaocai/GoldenView.Vim.git
 [submodule "bundle/molokai"]
 	path = bundle/molokai
 	url = https://github.com/tomasr/molokai.git
@@ -127,3 +121,10 @@
 [submodule "bundle/vimtex"]
 	path = bundle/vimtex
 	url = https://github.com/lervag/vimtex.git
+[submodule "bundle/golden_view"]
+	path = bundle/golden_view
+	url = git@github.com:zhaocai/GoldenView.Vim.git
+	ignore = untracked
+[submodule "bundle/tasklist"]
+	path = bundle/tasklist
+	url = git@github.com:vim-scripts/TaskList.vim.git
