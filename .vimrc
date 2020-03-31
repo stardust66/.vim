@@ -80,8 +80,6 @@ nnoremap <leader>n :call NumberToggle()<CR>
 let g:goldenview__enable_at_startup = 0
 nnoremap <C-L> Split
 
-set guifont=Monaco:h13
-
 " Colorscheme
 set background=dark
 colorscheme material-theme
