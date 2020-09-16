@@ -83,3 +83,6 @@
 [submodule "bundle/vim-racket"]
 	path = pack/bundle/start/vim-racket
 	url = git@github.com:wlangstroth/vim-racket.git
+[submodule "pack/bundle/start/vim-material"]
+	path = pack/bundle/start/vim-material
+	url = git@github.com:hzchirs/vim-material.git
