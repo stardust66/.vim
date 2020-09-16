@@ -19,9 +19,6 @@
 [submodule "bundle/repeat"]
 	path = pack/bundle/start/repeat
 	url = https://github.com/tpope/vim-repeat.git
-[submodule "bundle/vim-colors-solarized"]
-	path = pack/bundle/start/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/molokai"]
 	path = pack/bundle/start/molokai
 	url = https://github.com/tomasr/molokai.git
@@ -34,9 +31,6 @@
 [submodule "bundle/commentary"]
 	path = pack/bundle/start/commentary
 	url = https://github.com/tpope/vim-commentary.git
-[submodule "bundle/system-copy"]
-	path = pack/bundle/start/system-copy
-	url = https://github.com/christoomey/vim-system-copy.git
 [submodule "bundle/gitgutter"]
 	path = pack/bundle/start/gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
