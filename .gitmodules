@@ -116,7 +116,7 @@
 	path = bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
 [submodule "bundle/vim-material"]
-	path = bundle/vim-material
+	path = bundle/vim-material-theme
 	url = https://github.com/jdkanani/vim-material-theme
 [submodule "bundle/vimtex"]
 	path = bundle/vimtex
