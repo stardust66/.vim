@@ -117,3 +117,5 @@ function StripWhiteSpace()
   %s/\s\+$//e
 endfunction
 
+" Global ycm_extra_conf
+let g:ycm_global_ycm_extra_conf = $HOME."/.global_ycm_extra_conf.py"
