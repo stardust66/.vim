@@ -59,9 +59,6 @@ set wrap "Wrap lines
 " Backspace behaves normally
 set backspace=2
 
-" Pathogen
-execute pathogen#infect()
-call pathogen#helptags()
 
 " Toggle Line number type
 function! NumberToggle()
