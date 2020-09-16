@@ -1,17 +1,17 @@
 " Display the absolute line number of current line
 set number
 set relativenumber
+
 " filetype plugin
-filetype plugin on
-filetype indent on
+filetype plugin indent on
+syntax enable
 
-" Disable smart indent
-set nosmartindent
-
-" Default 2 spaces indent
+" Indent
 set softtabstop=2
 set expandtab
 set shiftwidth=2
+set autoindent
+set nosmartindent
 
 " Make vim create hidden buffers by default
 set hidden
@@ -21,9 +21,6 @@ set showmode " Show mode
 
 " Remember 700 lines of history
 set history=700
-
-" Syntax Highlighting
-syntax enable
 
 " Show current position
 set ruler
@@ -44,21 +41,13 @@ set showmatch
 set ignorecase
 nnoremap <leader><space> :noh<cr>
 
-" Folding Settings
+" Folding
 set foldmethod=indent
 set foldlevelstart=10
 set foldnestmax=10
 
-" Linebreak on 500 characters
-set lbr
-set tw=500
-
-set ai "Auto indent
-set wrap "Wrap lines
-
 " Backspace behaves normally
-set backspace=2
-
+set backspace=indent,eol,start
 
 " Toggle Line number type
 function! NumberToggle()
@@ -122,19 +111,9 @@ nnoremap <leader>i :set list!<CR>
 set listchars=""
 set listchars=tab:→\ 
 set listchars+=trail:·
-
 set list
 
 function StripWhiteSpace()
   %s/\s\+$//e
 endfunction
 
-" Remove trailing whitespace on save
-autocmd FileType c,cpp,java,php,python,javascript autocmd BufWritePre <buffer> %s/\s\+$//e
-
-" Enable Emmet for HTML, CSS, and javascript
-let g:user_emmet_install_global = 0
-autocmd FileType html,css,javascript EmmetInstall
-
-" Enable flow syntax highlighting
-let g:javascript_plugin_flow = 1
