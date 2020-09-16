@@ -128,3 +128,6 @@
 [submodule "bundle/tasklist"]
 	path = bundle/tasklist
 	url = git@github.com:vim-scripts/TaskList.vim.git
+[submodule "bundle/vim-racket"]
+	path = bundle/vim-racket
+	url = git@github.com:wlangstroth/vim-racket.git
