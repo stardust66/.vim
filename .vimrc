@@ -78,8 +78,7 @@ let g:goldenview__enable_at_startup = 0
 nnoremap <C-L> Split
 
 " Colorscheme
-set background=dark
-colorscheme material-theme
+colorscheme vim-material
 
 " Add new line without entering insert mode
 nnoremap <S-Enter> O<Esc>
@@ -95,7 +94,7 @@ noremap tt :NERDTreeToggle<CR>
 set laststatus=2
 
 " Airline
-let g:airline_theme = "spring_night"
+let g:airline_theme = "material"
 
 " Toggle show invisibles
 nnoremap <leader>i :set list!<CR>
