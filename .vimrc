@@ -77,6 +77,25 @@ nnoremap <leader>n :call NumberToggle()<CR>
 let g:goldenview__enable_at_startup = 0
 nnoremap <C-L> Split
 
+" Toggle background
+function! BackgroundToggle()
+    if (&background == "dark")
+        set background=light
+    else
+        set background=dark
+    endif
+endfunc
+
+nnoremap <leader>b :call BackgroundToggle()<CR>
+
+" Set background automatically based on time
+let time = system("date +%H")
+if time > 18 || time < 6
+    set background=dark
+else
+    set background=light
+endif
+
 " Colorscheme
 colorscheme vim-material
 
