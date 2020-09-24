@@ -95,9 +95,6 @@ nnoremap <CR> o<Esc>
 " CtrlP
 noremap <leader>p :CtrlP<CR>
 
-" Map keys to :NERDTreeToggle
-noremap tt :NERDTreeToggle<CR>
-
 " Make statusline appear all the time
 set laststatus=2
 

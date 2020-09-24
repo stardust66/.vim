@@ -13,9 +13,6 @@
 [submodule "bundle/gundo"]
 	path = pack/bundle/start/gundo
 	url = https://github.com/sjl/gundo.vim.git
-[submodule "bundle/nerdtree"]
-	path = pack/bundle/start/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/repeat"]
 	path = pack/bundle/start/repeat
 	url = https://github.com/tpope/vim-repeat.git
