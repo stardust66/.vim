@@ -1,0 +1,49 @@
+snippet beg "\begin{...}" b
+\begin{$1}
+  ${0:${VISUAL}}
+\end{$1}
+endsnippet
+
+snippet eqn "equation" b
+\begin{equation}
+  ${0:${VISUAL}}
+\end{equation}
+endsnippet
+
+snippet al "align" b
+\begin{align}
+  ${0:${VISUAL}}
+\end{align}
+endsnippet
+
+snippet enum "enumerate" b
+\begin{enumerate} [$1]
+  \item $0
+\end{enumerate}
+endsnippet
+
+snippet item "itemize" b
+\begin{itemize}
+  \item $0
+\end{itemize}
+endsnippet
+
+snippet bf "bold"
+\textbf{$1} $0
+endsnippet
+
+snippet ita "italics"
+\textit{$1} $0
+endsnippet
+
+snippet und "underline"
+\underline{$1} $0
+endsnippet
+
+snippet sc "smallcaps"
+\textsc{$1} $0
+endsnippet
+
+snippet in "... \in ..."
+$$1 \in $2$
+endsnippet
