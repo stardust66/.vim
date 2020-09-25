@@ -116,3 +116,8 @@ endfunction
 
 " Global ycm_extra_conf
 let g:ycm_global_ycm_extra_conf = $HOME."/.global_ycm_extra_conf.py"
+
+" Ultisnips
+let g:UltiSnipsExpandTrigger="<c-f>"
+let g:UltiSnipsJumpForwardTrigger="<S-f>"
+let g:UltiSnipsJumpBackwardTrigger="<S-b>"

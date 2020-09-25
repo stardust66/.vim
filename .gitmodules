@@ -77,3 +77,6 @@
 [submodule "pack/bundle/start/vim-material"]
 	path = pack/bundle/start/vim-material
 	url = git@github.com:hzchirs/vim-material.git
+[submodule "pack/bundle/start/ultisnips"]
+	path = pack/bundle/start/ultisnips
+	url = git@github.com:SirVer/ultisnips.git
