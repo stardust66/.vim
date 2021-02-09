@@ -83,3 +83,6 @@
 [submodule "pack/bundle/start/rust.vim"]
 	path = pack/bundle/start/rust.vim
 	url = git@github.com:rust-lang/rust.vim.git
+[submodule "pack/bundle/start/neoformat"]
+	path = pack/bundle/start/neoformat
+	url = git@github.com:sbdchd/neoformat.git

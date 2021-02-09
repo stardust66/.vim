@@ -121,3 +121,6 @@ let g:ycm_global_ycm_extra_conf = $HOME."/.global_ycm_extra_conf.py"
 let g:UltiSnipsExpandTrigger="<c-f>"
 let g:UltiSnipsJumpForwardTrigger="<S-f>"
 let g:UltiSnipsJumpBackwardTrigger="<S-b>"
+
+" Merlin (for Ocaml)
+set rtp+=/home/jason/.opam/default/share/merlin/vim
