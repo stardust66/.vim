@@ -1,3 +1,5 @@
+set encoding=utf-8
+
 " Display the absolute line number of current line
 set number
 set relativenumber
