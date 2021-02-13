@@ -83,3 +83,6 @@
 [submodule "pack/bundle/start/neoformat"]
 	path = pack/bundle/start/neoformat
 	url = git@github.com:sbdchd/neoformat.git
+[submodule "pack/bundle/start/vim-wenyan"]
+	path = pack/bundle/start/vim-wenyan
+	url = git@github.com:voldikss/vim-wenyan.git
