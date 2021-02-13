@@ -4,9 +4,6 @@
 [submodule "bundle/surround"]
 	path = pack/bundle/start/surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "bundle/supertab"]
-	path = pack/bundle/start/supertab
-	url = https://github.com/ervandew/supertab.git
 [submodule "bundle/ack"]
 	path = pack/bundle/start/ack
 	url = https://github.com/mileszs/ack.vim.git
