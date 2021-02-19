@@ -7,9 +7,6 @@
 [submodule "bundle/ack"]
 	path = pack/bundle/start/ack
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "bundle/gundo"]
-	path = pack/bundle/start/gundo
-	url = https://github.com/sjl/gundo.vim.git
 [submodule "bundle/repeat"]
 	path = pack/bundle/start/repeat
 	url = https://github.com/tpope/vim-repeat.git
@@ -46,9 +43,6 @@
 [submodule "bundle/vim-python-pep8-indent"]
 	path = pack/bundle/start/vim-python-pep8-indent
 	url = https://github.com/Vimjas/vim-python-pep8-indent.git
-[submodule "bundle/auto-pairs"]
-	path = pack/bundle/start/auto-pairs
-	url = https://github.com/jiangmiao/auto-pairs.git
 [submodule "bundle/vim-javascript"]
 	path = pack/bundle/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
@@ -65,9 +59,6 @@
 	path = pack/bundle/start/golden_view
 	url = git@github.com:zhaocai/GoldenView.Vim.git
 	ignore = untracked
-[submodule "bundle/tasklist"]
-	path = pack/bundle/start/tasklist
-	url = git@github.com:vim-scripts/TaskList.vim.git
 [submodule "bundle/vim-racket"]
 	path = pack/bundle/start/vim-racket
 	url = git@github.com:wlangstroth/vim-racket.git
