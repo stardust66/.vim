@@ -77,3 +77,6 @@
 [submodule "pack/bundle/start/vim-wenyan"]
 	path = pack/bundle/start/vim-wenyan
 	url = git@github.com:voldikss/vim-wenyan.git
+[submodule "pack/bundle/start/lexima"]
+	path = pack/bundle/start/lexima
+	url = git@github.com:cohama/lexima.vim.git
