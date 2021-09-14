@@ -80,3 +80,6 @@
 [submodule "pack/bundle/start/lexima"]
 	path = pack/bundle/start/lexima
 	url = git@github.com:cohama/lexima.vim.git
+[submodule "pack/bundle/start/julia-vim"]
+	path = pack/bundle/start/julia-vim
+	url = git@github.com:JuliaEditorSupport/julia-vim.git
