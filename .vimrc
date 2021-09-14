@@ -15,6 +15,11 @@ set shiftwidth=2
 set autoindent
 set nosmartindent
 
+" Horizontal Scrolling
+set nowrap
+nnoremap <S-ScrollWheelUp> <ScrollWheelLeft>
+nnoremap <S-ScrollWheelDown> <ScrollWheelRight>
+
 " Make vim create hidden buffers by default
 set hidden
 
