@@ -89,7 +89,7 @@ nnoremap <leader>b :call BackgroundToggle()<CR>
 
 " Set background automatically based on time
 let time = system("date +%H")
-if time > 18 || time < 6
+if time > 16 || time < 6
     set background=dark
 else
     set background=light
@@ -104,6 +104,7 @@ nnoremap <CR> o<Esc>
 
 " CtrlP
 noremap <leader>p :CtrlP<CR>
+let g:ctrlp_custom_ignore = 'node_modules\|git\|vendor\|tmp'
 
 " Make statusline appear all the time
 set laststatus=2
@@ -127,6 +128,23 @@ endfunction
 " Global ycm_extra_conf
 let g:ycm_global_ycm_extra_conf = $HOME."/.global_ycm_extra_conf.py"
 
+let g:ycm_language_server = [
+  \   {
+  \     'name': 'haskell-language-server',
+  \     'cmdline': [ 'haskell-language-server-wrapper', '--lsp' ],
+  \     'filetypes': [ 'haskell', 'lhaskell' ],
+  \     'project_root_files': [ 'stack.yaml', 'cabal.project', 'package.yaml', 'hie.yaml' ],
+  \   },
+  \   {
+  \     'name': 'ocaml-language-server',
+  \     'cmdline': [ 'ocamllsp' ],
+  \     'filetypes': [ 'ocaml' ],
+  \     'project_root_files': [ 'dune-project' ],
+  \   },
+  \ ]
+
+let g:ycm_always_populate_location_list = 1
+
 " Ultisnips
 let g:UltiSnipsExpandTrigger="<c-f>"
 let g:UltiSnipsJumpForwardTrigger="<S-f>"
@@ -134,3 +152,12 @@ let g:UltiSnipsJumpBackwardTrigger="<S-b>"
 
 " Merlin (for Ocaml)
 set rtp+=/home/jason/.opam/default/share/merlin/vim
+
+" Enable syntax highlighting for flow
+let g:javascript_plugin_flow = 1
+
+let g:ycm_autoclose_preview_window_after_insertion = 1
+
+let g:neoformat_enabled_haskell = ['brittany']
+let g:neoformat_enabled_typescript = ['prettier']
+let g:neoformat_enabled_typescriptreact = ['prettier']
