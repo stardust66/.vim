@@ -32,6 +32,9 @@ set history=700
 " Show current position
 set ruler
 
+" Default to 80 character guides
+set colorcolumn=80
+
 " Enable mouse
 set mouse=a
 
