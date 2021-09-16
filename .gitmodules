@@ -13,9 +13,6 @@
 [submodule "bundle/molokai"]
 	path = pack/bundle/start/molokai
 	url = https://github.com/tomasr/molokai.git
-[submodule "bundle/YouCompleteMe"]
-	path = pack/bundle/start/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "bundle/ctrlpvim"]
 	path = pack/bundle/start/ctrlpvim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
