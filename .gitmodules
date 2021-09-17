@@ -80,3 +80,7 @@
 [submodule "pack/bundle/start/julia-vim"]
 	path = pack/bundle/start/julia-vim
 	url = git@github.com:JuliaEditorSupport/julia-vim.git
+[submodule "pack/bundle/start/coc.nvim"]
+	path = pack/bundle/start/coc.nvim
+	url = git@github.com:neoclide/coc.nvim.git
+	branch = release

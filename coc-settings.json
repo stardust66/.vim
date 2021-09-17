@@ -1,0 +1,24 @@
+{
+  "julia.format.indent": 4,
+  "languageserver": {
+    "ocaml": {
+      "command": "ocamllsp",
+      "rootPatterns": ["dune-project"],
+      "filetypes": ["ocaml"],
+      "initializationOptions": {},
+      "settings": {}
+    },
+    "haskell": {
+      "command": "haskell-language-server-wrapper",
+      "args": ["--lsp"],
+      "rootPatterns": [
+        ".stack.yaml",
+        "hie.yaml",
+        "*.cabal",
+        "cabal.project",
+        "package.yaml"
+      ],
+      "filetypes": ["haskell"]
+    }
+  }
+}
