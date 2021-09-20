@@ -145,11 +145,6 @@ let g:ycm_language_server = [
 
 let g:ycm_always_populate_location_list = 1
 
-" Ultisnips
-let g:UltiSnipsExpandTrigger="<c-f>"
-let g:UltiSnipsJumpForwardTrigger="<S-f>"
-let g:UltiSnipsJumpBackwardTrigger="<S-b>"
-
 " Merlin (for Ocaml)
 set rtp+=/home/jason/.opam/default/share/merlin/vim
 

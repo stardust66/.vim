@@ -62,9 +62,6 @@
 [submodule "pack/bundle/start/vim-material"]
 	path = pack/bundle/start/vim-material
 	url = git@github.com:hzchirs/vim-material.git
-[submodule "pack/bundle/start/ultisnips"]
-	path = pack/bundle/start/ultisnips
-	url = git@github.com:SirVer/ultisnips.git
 [submodule "pack/bundle/start/rust.vim"]
 	path = pack/bundle/start/rust.vim
 	url = git@github.com:rust-lang/rust.vim.git
