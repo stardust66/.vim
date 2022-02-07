@@ -157,6 +157,16 @@ let g:neoformat_enabled_haskell = ['brittany']
 let g:neoformat_enabled_typescript = ['prettier']
 let g:neoformat_enabled_typescriptreact = ['prettier']
 
+let g:opambin = substitute(system('opam config var bin'),'\n$','','''')
+let g:neoformat_ocaml_ocamlformat = {
+            \ 'exe': g:opambin . '/ocamlformat',
+            \ 'no_append': 1,
+            \ 'stdin': 1,
+            \ 'args': ['--enable-outside-detected-project', '--name', '"%:p"', '-']
+            \ }
+
+let g:neoformat_enabled_ocaml = ['ocamlformat']
+
 " Coc.nvim
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
