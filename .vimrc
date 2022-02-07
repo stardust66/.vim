@@ -197,3 +197,6 @@ function! s:show_documentation()
     execute '!' . &keywordprg . " " . expand('<cword>')
   endif
 endfunction
+
+" Turn off latex expansion from vim-julia
+let g:latex_to_unicode_tab = "off"
