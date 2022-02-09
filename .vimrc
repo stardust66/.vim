@@ -128,33 +128,11 @@ function StripWhiteSpace()
   %s/\s\+$//e
 endfunction
 
-" Global ycm_extra_conf
-let g:ycm_global_ycm_extra_conf = $HOME."/.global_ycm_extra_conf.py"
-
-let g:ycm_language_server = [
-  \   {
-  \     'name': 'haskell-language-server',
-  \     'cmdline': [ 'haskell-language-server-wrapper', '--lsp' ],
-  \     'filetypes': [ 'haskell', 'lhaskell' ],
-  \     'project_root_files': [ 'stack.yaml', 'cabal.project', 'package.yaml', 'hie.yaml' ],
-  \   },
-  \   {
-  \     'name': 'ocaml-language-server',
-  \     'cmdline': [ 'ocamllsp' ],
-  \     'filetypes': [ 'ocaml' ],
-  \     'project_root_files': [ 'dune-project' ],
-  \   },
-  \ ]
-
-let g:ycm_always_populate_location_list = 1
-
 " Merlin (for Ocaml)
 set rtp+=/home/jason/.opam/default/share/merlin/vim
 
 " Enable syntax highlighting for flow
 let g:javascript_plugin_flow = 1
-
-let g:ycm_autoclose_preview_window_after_insertion = 1
 
 let g:neoformat_enabled_haskell = ['brittany']
 let g:neoformat_enabled_typescript = ['prettier']
