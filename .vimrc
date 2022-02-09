@@ -72,6 +72,9 @@ endfunc
 
 nnoremap <leader>n :call NumberToggle()<CR>
 
+" Faster updatetime for gitgutter, coc.nvim, etc.
+set updatetime=300
+
 " Configuration for Plugin Golden View
 let g:goldenview__enable_at_startup = 0
 nnoremap <C-L> Split
