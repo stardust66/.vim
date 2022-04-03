@@ -107,7 +107,10 @@ nnoremap <CR> o<Esc>
 
 " CtrlP
 noremap <leader>p :CtrlP<CR>
-let g:ctrlp_custom_ignore = 'node_modules\|git\|vendor\|tmp'
+let g:ctrlp_custom_ignore = {
+  \ 'dir': 'node_modules\|git\|vendor\|tmp\|target',
+  \ 'file': '\.o$'
+  \ }
 
 " Make statusline appear all the time
 set laststatus=2
@@ -134,9 +137,10 @@ set rtp+=/home/jason/.opam/default/share/merlin/vim
 " Enable syntax highlighting for flow
 let g:javascript_plugin_flow = 1
 
-let g:neoformat_enabled_haskell = ['brittany']
+let g:neoformat_enabled_haskell = ['ormolu']
 let g:neoformat_enabled_typescript = ['prettier']
 let g:neoformat_enabled_typescriptreact = ['prettier']
+let g:neoformat_enabled_python = ['black']
 
 let g:opambin = substitute(system('opam config var bin'),'\n$','','''')
 let g:neoformat_ocaml_ocamlformat = {
