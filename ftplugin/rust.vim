@@ -1,1 +1,1 @@
-setlocal colorcolumn=100
+setlocal colorcolumn=80,100
