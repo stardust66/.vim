@@ -1,5 +1,6 @@
 {
   "julia.format.indent": 4,
+  "sourcekit.commandPath": "/usr/local/bin/sourcekit-lsp",
   "languageserver": {
     "ocaml": {
       "command": "ocamllsp",
@@ -20,5 +21,6 @@
       ],
       "filetypes": ["haskell"]
     }
-  }
+  },
+  "rust-analyzer.checkOnSave.command": "clippy"
 }
