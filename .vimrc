@@ -142,6 +142,7 @@ let g:neoformat_enabled_haskell = ['ormolu']
 let g:neoformat_enabled_typescript = ['prettier']
 let g:neoformat_enabled_typescriptreact = ['prettier']
 let g:neoformat_enabled_python = ['black']
+let g:neoformat_enabled_cpp = ['clangformat']
 
 let g:opambin = substitute(system('opam config var bin'),'\n$','','''')
 let g:neoformat_ocaml_ocamlformat = {
