@@ -91,12 +91,13 @@ endfunc
 nnoremap <leader>b :call BackgroundToggle()<CR>
 
 " Set background automatically based on time
-let time = system("date +%H")
-if time > 16 || time < 6
-    set background=dark
-else
-    set background=light
-endif
+" let time = system("date +%H")
+" if time > 16 || time < 6
+"     set background=dark
+" else
+"     set background=light
+" endif
+set background=dark
 
 " Colorscheme
 colorscheme vim-material
