@@ -110,7 +110,7 @@ nnoremap <CR> o<Esc>
 noremap <leader>p :CtrlP<CR>
 let g:ctrlp_custom_ignore = {
   \ 'dir': 'node_modules\|git\|vendor\|tmp\|target',
-  \ 'file': '\.o$'
+  \ 'file': '\.o$\|\.class$'
   \ }
 
 " Make statusline appear all the time
